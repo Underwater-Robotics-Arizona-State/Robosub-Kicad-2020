@@ -1,0 +1,245 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy3.5 U1
+U 1 1 5D8D7027
+P 4250 3750
+F 0 "U1" H 4250 6383 60  0000 C CNN
+F 1 "Teensy3.5" H 4250 6277 60  0000 C CNN
+F 2 "Arduino Project:Teensy35_36" H 4150 6000 60  0001 C CNN
+F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 4250 6171 60  0000 C CNN
+F 4 "https://www.pjrc.com/teensy/pinout.html" H 4250 6073 50  0000 C CNN "Pinouts"
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 I2C
+U 1 1 5D8D9D10
+P 6400 2700
+F 0 "I2C" H 6480 2692 50  0000 L CNN
+F 1 "Conn_01x04" H 6480 2601 50  0000 L CNN
+F 2 "" H 6400 2700 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-0
+U 1 1 5D8E59B3
+P 6400 3450
+F 0 "PWM-0" H 6480 3492 50  0000 L CNN
+F 1 "Conn_01x03" H 6480 3401 50  0000 L CNN
+F 2 "" H 6400 3450 50  0001 C CNN
+F 3 "~" H 6400 3450 50  0001 C CNN
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-1
+U 1 1 5D8E69DC
+P 6400 3950
+F 0 "PWM-1" H 6480 3992 50  0000 L CNN
+F 1 "Conn_01x03" H 6480 3901 50  0000 L CNN
+F 2 "" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-2
+U 1 1 5D8E6C16
+P 6400 4450
+F 0 "PWM-2" H 6480 4492 50  0000 L CNN
+F 1 "Conn_01x03" H 6480 4401 50  0000 L CNN
+F 2 "" H 6400 4450 50  0001 C CNN
+F 3 "~" H 6400 4450 50  0001 C CNN
+	1    6400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-4
+U 1 1 5D8E702A
+P 7550 3450
+F 0 "PWM-4" H 7630 3492 50  0000 L CNN
+F 1 "Conn_01x03" H 7630 3401 50  0000 L CNN
+F 2 "" H 7550 3450 50  0001 C CNN
+F 3 "~" H 7550 3450 50  0001 C CNN
+	1    7550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-5
+U 1 1 5D8E7229
+P 7550 3950
+F 0 "PWM-5" H 7630 3992 50  0000 L CNN
+F 1 "Conn_01x03" H 7630 3901 50  0000 L CNN
+F 2 "" H 7550 3950 50  0001 C CNN
+F 3 "~" H 7550 3950 50  0001 C CNN
+	1    7550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-6
+U 1 1 5D8E740B
+P 7550 4450
+F 0 "PWM-6" H 7630 4492 50  0000 L CNN
+F 1 "Conn_01x03" H 7630 4401 50  0000 L CNN
+F 2 "" H 7550 4450 50  0001 C CNN
+F 3 "~" H 7550 4450 50  0001 C CNN
+	1    7550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-8
+U 1 1 5D8E765D
+P 8650 3450
+F 0 "PWM-8" H 8730 3492 50  0000 L CNN
+F 1 "Conn_01x03" H 8730 3401 50  0000 L CNN
+F 2 "" H 8650 3450 50  0001 C CNN
+F 3 "~" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-9
+U 1 1 5D8E7913
+P 8650 3950
+F 0 "PWM-9" H 8730 3992 50  0000 L CNN
+F 1 "Conn_01x03" H 8730 3901 50  0000 L CNN
+F 2 "" H 8650 3950 50  0001 C CNN
+F 3 "~" H 8650 3950 50  0001 C CNN
+	1    8650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-10
+U 1 1 5D8E7BA8
+P 8650 4450
+F 0 "PWM-10" H 8730 4492 50  0000 L CNN
+F 1 "Conn_01x03" H 8730 4401 50  0000 L CNN
+F 2 "" H 8650 4450 50  0001 C CNN
+F 3 "~" H 8650 4450 50  0001 C CNN
+	1    8650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-3
+U 1 1 5D8E7FF2
+P 6400 4950
+F 0 "PWM-3" H 6480 4992 50  0000 L CNN
+F 1 "Conn_01x03" H 6480 4901 50  0000 L CNN
+F 2 "" H 6400 4950 50  0001 C CNN
+F 3 "~" H 6400 4950 50  0001 C CNN
+	1    6400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-7
+U 1 1 5D8E8499
+P 7550 4950
+F 0 "PWM-7" H 7630 4992 50  0000 L CNN
+F 1 "Conn_01x03" H 7630 4901 50  0000 L CNN
+F 2 "" H 7550 4950 50  0001 C CNN
+F 3 "~" H 7550 4950 50  0001 C CNN
+	1    7550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 PWM-11
+U 1 1 5D8E8847
+P 8600 4950
+F 0 "PWM-11" H 8680 4992 50  0000 L CNN
+F 1 "Conn_01x03" H 8680 4901 50  0000 L CNN
+F 2 "" H 8600 4950 50  0001 C CNN
+F 3 "~" H 8600 4950 50  0001 C CNN
+	1    8600 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 3350 0    50   Input ~ 0
+PWM-0
+Text GLabel 6200 3850 0    50   Input ~ 0
+PWM-1
+Text GLabel 6200 4350 0    50   Input ~ 0
+PWM-2
+Text GLabel 6200 4850 0    50   Input ~ 0
+PWM-3
+Text GLabel 7350 3350 0    50   Input ~ 0
+PWM-4
+Text GLabel 7350 3850 0    50   Input ~ 0
+PWM-5
+Text GLabel 7350 4350 0    50   Input ~ 0
+PWM-6
+Text GLabel 7350 4850 0    50   Input ~ 0
+PWM-7
+Text GLabel 8450 3350 0    50   Input ~ 0
+PWM-8
+Text GLabel 8450 3850 0    50   Input ~ 0
+PWM-9
+Text GLabel 8450 4350 0    50   Input ~ 0
+PWM-10
+Text GLabel 8400 4850 0    50   Input ~ 0
+PWM-11
+Text GLabel 6200 3550 0    50   Input ~ 0
+GND
+Text GLabel 6200 4050 0    50   Input ~ 0
+GND
+Text GLabel 6200 4550 0    50   Input ~ 0
+GND
+Text GLabel 6200 5050 0    50   Input ~ 0
+GND
+Text GLabel 7350 3550 0    50   Input ~ 0
+GND
+Text GLabel 7350 4050 0    50   Input ~ 0
+GND
+Text GLabel 7350 4550 0    50   Input ~ 0
+GND
+Text GLabel 7350 5050 0    50   Input ~ 0
+GND
+Text GLabel 8450 3550 0    50   Input ~ 0
+GND
+Text GLabel 8450 4050 0    50   Input ~ 0
+GND
+Text GLabel 7000 2200 0    50   Input ~ 0
+7,8,16,17,18,19
+Text GLabel 8450 4550 0    50   Input ~ 0
+GND
+Text GLabel 8400 5050 0    50   Input ~ 0
+GND
+Text GLabel 3100 1900 0    50   Input ~ 0
+PWM-0
+Text GLabel 3100 2000 0    50   Input ~ 0
+PWM-1
+Text GLabel 3100 2100 0    50   Input ~ 0
+PWM-2
+Text GLabel 3100 2200 0    50   Input ~ 0
+PWM-3
+Text GLabel 3100 2600 0    50   Input ~ 0
+PWM-4
+Text GLabel 3100 2700 0    50   Input ~ 0
+PWM-5
+Text GLabel 3100 3600 0    50   Input ~ 0
+PWM-6
+Text GLabel 3100 3700 0    50   Input ~ 0
+PWM-7
+Text GLabel 3100 4700 0    50   Input ~ 0
+PWM-8
+Text GLabel 3100 4800 0    50   Input ~ 0
+PWM-9
+Text GLabel 3100 4900 0    50   Input ~ 0
+PWM-10
+Text GLabel 3100 5000 0    50   Input ~ 0
+PWM-11
+$EndSCHEMATC
