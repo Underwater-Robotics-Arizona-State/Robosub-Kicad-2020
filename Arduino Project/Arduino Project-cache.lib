@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Arduino-Project-rescue:Teensy3.5-teensy
+# Arduino-Project-rescue_Teensy3.5-teensy
 #
-DEF Arduino-Project-rescue:Teensy3.5-teensy U 0 40 Y Y 1 F N
+DEF Arduino-Project-rescue_Teensy3.5-teensy U 0 40 Y Y 1 F N
 F0 "U" 0 2350 60 H V C CNN
-F1 "Arduino-Project-rescue:Teensy3.5-teensy" 0 -2350 60 H V C CNN
+F1 "Arduino-Project-rescue_Teensy3.5-teensy" 0 -2350 60 H V C CNN
 F2 "" -100 2250 60 H V C CNN
 F3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" 0 2450 60 H V C CNN
 F4 "https://www.pjrc.com/teensy/pinout.html" 0 2550 50 H V C CNN "Pinouts"
@@ -102,11 +102,11 @@ X not_used ~ 1150 -650 200 L 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x02
+# Connector_Generic_Conn_01x02
 #
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -121,11 +121,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x03
+# Connector_Generic_Conn_01x03
 #
-DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x03 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
+F1 "Connector_Generic_Conn_01x03" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -142,11 +142,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_01x04
+# Connector_Generic_Conn_01x04
 #
-DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -165,46 +165,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Logic_LevelTranslator:TXB0108DQSR
+# power_+3.3V
 #
-DEF Logic_LevelTranslator:TXB0108DQSR U 0 20 Y Y 1 F N
-F0 "U" -250 650 50 H V C CNN
-F1 "Logic_LevelTranslator:TXB0108DQSR" 150 650 50 H V L CNN
-F2 "Package_SON:USON-20_2x4mm_P0.4mm" 0 -750 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
-$FPLIST
- USON*2x4mm*P0.4mm*
-$ENDFPLIST
-DRAW
-S -300 600 300 -600 0 1 10 f
-X A1 1 -400 300 100 R 50 50 1 1 B
-X A8 10 -400 -400 100 R 50 50 1 1 B
-X GND 11 0 -700 100 U 50 50 1 1 W
-X B8 12 400 -400 100 L 50 50 1 1 B
-X B7 13 400 -300 100 L 50 50 1 1 B
-X B6 14 400 -200 100 L 50 50 1 1 B
-X B5 15 400 -100 100 L 50 50 1 1 B
-X B4 16 400 0 100 L 50 50 1 1 B
-X B3 17 400 100 100 L 50 50 1 1 B
-X B2 18 400 200 100 L 50 50 1 1 B
-X VCCB 19 100 700 100 D 50 50 1 1 W
-X A2 2 -400 200 100 R 50 50 1 1 B
-X B1 20 400 300 100 L 50 50 1 1 B
-X A3 3 -400 100 100 R 50 50 1 1 B
-X A4 4 -400 0 100 R 50 50 1 1 B
-X VCCA 5 -100 700 100 D 50 50 1 1 W
-X OE 6 -400 400 100 R 50 50 1 1 I
-X A5 7 -400 -100 100 R 50 50 1 1 B
-X A6 8 -400 -200 100 R 50 50 1 1 B
-X A7 9 -400 -300 100 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# power:+3.3V
-#
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -216,11 +181,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -231,11 +196,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
