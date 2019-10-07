@@ -27,12 +27,12 @@ F 4 "https://www.pjrc.com/teensy/pinout.html" H 2300 5573 50  0000 C CNN "Pinout
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 I2C
+L Connector_Generic:Conn_01x04 I2C1
 U 1 1 5D8D9D10
 P 8850 2300
-F 0 "I2C" H 8850 2500 50  0000 L CNN
+F 0 "I2C1" H 8850 2500 50  0000 L CNN
 F 1 "Conn_01x04" H 8850 2000 50  0000 L CNN
-F 2 "" H 8850 2300 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x04_P2.54mm_Vertical" H 8850 2300 50  0001 C CNN
 F 3 "~" H 8850 2300 50  0001 C CNN
 	1    8850 2300
 	1    0    0    -1  
@@ -43,7 +43,7 @@ U 1 1 5D8E59B3
 P 7700 2950
 F 0 "PWM-0" H 7780 2992 50  0000 L CNN
 F 1 "Conn_01x03" H 7780 2901 50  0000 L CNN
-F 2 "" H 7700 2950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 7700 2950 50  0001 C CNN
 F 3 "~" H 7700 2950 50  0001 C CNN
 	1    7700 2950
 	1    0    0    -1  
@@ -54,7 +54,7 @@ U 1 1 5D8E69DC
 P 7700 3450
 F 0 "PWM-1" H 7780 3492 50  0000 L CNN
 F 1 "Conn_01x03" H 7780 3401 50  0000 L CNN
-F 2 "" H 7700 3450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 7700 3450 50  0001 C CNN
 F 3 "~" H 7700 3450 50  0001 C CNN
 	1    7700 3450
 	1    0    0    -1  
@@ -65,7 +65,7 @@ U 1 1 5D8E6C16
 P 7700 3950
 F 0 "PWM-2" H 7780 3992 50  0000 L CNN
 F 1 "Conn_01x03" H 7780 3901 50  0000 L CNN
-F 2 "" H 7700 3950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 7700 3950 50  0001 C CNN
 F 3 "~" H 7700 3950 50  0001 C CNN
 	1    7700 3950
 	1    0    0    -1  
@@ -76,7 +76,7 @@ U 1 1 5D8E702A
 P 8850 2950
 F 0 "PWM-4" H 8930 2992 50  0000 L CNN
 F 1 "Conn_01x03" H 8930 2901 50  0000 L CNN
-F 2 "" H 8850 2950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 8850 2950 50  0001 C CNN
 F 3 "~" H 8850 2950 50  0001 C CNN
 	1    8850 2950
 	1    0    0    -1  
@@ -87,7 +87,7 @@ U 1 1 5D8E7229
 P 8850 3450
 F 0 "PWM-5" H 8930 3492 50  0000 L CNN
 F 1 "Conn_01x03" H 8930 3401 50  0000 L CNN
-F 2 "" H 8850 3450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 8850 3450 50  0001 C CNN
 F 3 "~" H 8850 3450 50  0001 C CNN
 	1    8850 3450
 	1    0    0    -1  
@@ -98,7 +98,7 @@ U 1 1 5D8E740B
 P 8850 3950
 F 0 "PWM-6" H 8930 3992 50  0000 L CNN
 F 1 "Conn_01x03" H 8930 3901 50  0000 L CNN
-F 2 "" H 8850 3950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 8850 3950 50  0001 C CNN
 F 3 "~" H 8850 3950 50  0001 C CNN
 	1    8850 3950
 	1    0    0    -1  
@@ -109,7 +109,7 @@ U 1 1 5D8E765D
 P 9950 2950
 F 0 "PWM-8" H 10030 2992 50  0000 L CNN
 F 1 "Conn_01x03" H 10030 2901 50  0000 L CNN
-F 2 "" H 9950 2950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 9950 2950 50  0001 C CNN
 F 3 "~" H 9950 2950 50  0001 C CNN
 	1    9950 2950
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5D8E7913
 P 9950 3450
 F 0 "PWM-9" H 10030 3492 50  0000 L CNN
 F 1 "Conn_01x03" H 10030 3401 50  0000 L CNN
-F 2 "" H 9950 3450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 9950 3450 50  0001 C CNN
 F 3 "~" H 9950 3450 50  0001 C CNN
 	1    9950 3450
 	1    0    0    -1  
@@ -131,7 +131,7 @@ U 1 1 5D8E7BA8
 P 9950 3950
 F 0 "PWM-10" H 10030 3992 50  0000 L CNN
 F 1 "Conn_01x03" H 10030 3901 50  0000 L CNN
-F 2 "" H 9950 3950 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 9950 3950 50  0001 C CNN
 F 3 "~" H 9950 3950 50  0001 C CNN
 	1    9950 3950
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 5D8E7FF2
 P 7700 4450
 F 0 "PWM-3" H 7780 4492 50  0000 L CNN
 F 1 "Conn_01x03" H 7780 4401 50  0000 L CNN
-F 2 "" H 7700 4450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 7700 4450 50  0001 C CNN
 F 3 "~" H 7700 4450 50  0001 C CNN
 	1    7700 4450
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 5D8E8499
 P 8850 4450
 F 0 "PWM-7" H 8930 4492 50  0000 L CNN
 F 1 "Conn_01x03" H 8930 4401 50  0000 L CNN
-F 2 "" H 8850 4450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 8850 4450 50  0001 C CNN
 F 3 "~" H 8850 4450 50  0001 C CNN
 	1    8850 4450
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 5D8E8847
 P 9950 4450
 F 0 "PWM-11" H 10030 4492 50  0000 L CNN
 F 1 "Conn_01x03" H 10030 4401 50  0000 L CNN
-F 2 "" H 9950 4450 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 9950 4450 50  0001 C CNN
 F 3 "~" H 9950 4450 50  0001 C CNN
 	1    9950 4450
 	1    0    0    -1  
@@ -182,23 +182,17 @@ PWM_6
 Text GLabel 8650 4350 0    50   Input ~ 0
 PWM_7
 Text GLabel 9750 3350 0    50   Input ~ 0
-PWM-9
-Text GLabel 9750 3850 0    50   Input ~ 0
-PWM-10
+PWM_9
 Text GLabel 9750 4350 0    50   Input ~ 0
-PWM-11
+PWM_11
 Text GLabel 1150 1700 0    50   Input ~ 0
 PWM_3
 Text GLabel 1150 2100 0    50   Input ~ 0
 PWM_4
-Text GLabel 1150 4200 0    50   Input ~ 0
+Text GLabel 1150 4500 0    50   Input ~ 0
 PWM_8
 Text GLabel 1150 4300 0    50   Input ~ 0
-PWM-9
-Text GLabel 1150 4400 0    50   Input ~ 0
-PWM-10
-Text GLabel 1150 4500 0    50   Input ~ 0
-PWM-11
+PWM_10
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5D940FAE
@@ -222,12 +216,12 @@ F 3 "" H 8650 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 I2C
+L Connector_Generic:Conn_01x04 I2C2
 U 1 1 5D95D8A5
 P 9950 2300
-F 0 "I2C" H 9950 2500 50  0000 L CNN
+F 0 "I2C2" H 9950 2500 50  0000 L CNN
 F 1 "Conn_01x04" H 9950 2000 50  0000 L CNN
-F 2 "" H 9950 2300 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x04_P2.54mm_Vertical" H 9950 2300 50  0001 C CNN
 F 3 "~" H 9950 2300 50  0001 C CNN
 	1    9950 2300
 	1    0    0    -1  
@@ -271,7 +265,7 @@ U 1 1 5D95EA1A
 P 7500 1250
 F 0 "XT-60" H 7580 1242 50  0000 L CNN
 F 1 "Conn_01x02" H 7580 1151 50  0000 L CNN
-F 2 "" H 7500 1250 50  0001 C CNN
+F 2 "Arduino Project:XT60" H 7500 1250 50  0001 C CNN
 F 3 "~" H 7500 1250 50  0001 C CNN
 	1    7500 1250
 	1    0    0    -1  
@@ -299,12 +293,12 @@ F 3 "" H 7300 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 CBConn
+L Connector_Generic:Conn_01x02 CBConn1
 U 1 1 5D97DD76
 P 8700 1250
-F 0 "CBConn" H 8780 1242 50  0000 L CNN
+F 0 "CBConn1" H 8780 1242 50  0000 L CNN
 F 1 "Conn_01x02" H 8780 1151 50  0000 L CNN
-F 2 "" H 8700 1250 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x02_P2.54mm_Vertical" H 8700 1250 50  0001 C CNN
 F 3 "~" H 8700 1250 50  0001 C CNN
 	1    8700 1250
 	1    0    0    -1  
@@ -343,12 +337,12 @@ I2C_SCL
 Text GLabel 9750 2400 0    50   Input ~ 0
 I2C_SDA
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5D95555F
 P 10050 1250
-F 0 "J?" H 10130 1242 50  0000 L CNN
+F 0 "J1" H 10130 1242 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1151 50  0000 L CNN
-F 2 "" H 10050 1250 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x02_P2.54mm_Vertical" H 10050 1250 50  0001 C CNN
 F 3 "~" H 10050 1250 50  0001 C CNN
 	1    10050 1250
 	1    0    0    -1  
@@ -499,12 +493,12 @@ F 3 "" H 9750 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 PWM-?
+L Connector_Generic:Conn_01x03 PWM-13
 U 1 1 5D9671DA
 P 8850 4900
-F 0 "PWM-?" H 8930 4942 50  0000 L CNN
+F 0 "PWM-13" H 8930 4942 50  0000 L CNN
 F 1 "Conn_01x03" H 8930 4851 50  0000 L CNN
-F 2 "" H 8850 4900 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 8850 4900 50  0001 C CNN
 F 3 "~" H 8850 4900 50  0001 C CNN
 	1    8850 4900
 	1    0    0    -1  
@@ -522,12 +516,12 @@ F 3 "" H 8650 5000 50  0001 C CNN
 $EndComp
 NoConn ~ 8650 4900
 $Comp
-L Connector_Generic:Conn_01x03 PWM-?
+L Connector_Generic:Conn_01x03 PWM-12
 U 1 1 5D967379
 P 7700 4900
-F 0 "PWM-?" H 7780 4942 50  0000 L CNN
+F 0 "PWM-12" H 7780 4942 50  0000 L CNN
 F 1 "Conn_01x03" H 7780 4851 50  0000 L CNN
-F 2 "" H 7700 4900 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 7700 4900 50  0001 C CNN
 F 3 "~" H 7700 4900 50  0001 C CNN
 	1    7700 4900
 	1    0    0    -1  
@@ -576,9 +570,9 @@ F 3 "" H 3450 4800 50  0001 C CNN
 	1    3450 4800
 	0    1    1    0   
 $EndComp
-Text GLabel 3450 5200 2    50   Input ~ 0
+Text GLabel 1150 3100 0    50   Input ~ 0
 PWM_13
-Text GLabel 3450 5100 2    50   Input ~ 0
+Text GLabel 1150 3200 0    50   Input ~ 0
 PWM_14
 Text GLabel 1150 5200 0    50   Input ~ 0
 CBEnable
@@ -615,12 +609,12 @@ NoConn ~ 3450 3800
 Text GLabel 9750 4800 0    50   Input ~ 0
 PWM_14
 $Comp
-L Connector_Generic:Conn_01x03 PWM-?
+L Connector_Generic:Conn_01x03 PWM-14
 U 1 1 5D97065B
 P 9950 4900
-F 0 "PWM-?" H 10030 4942 50  0000 L CNN
+F 0 "PWM-14" H 10030 4942 50  0000 L CNN
 F 1 "Conn_01x03" H 10030 4851 50  0000 L CNN
-F 2 "" H 9950 4900 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 9950 4900 50  0001 C CNN
 F 3 "~" H 9950 4900 50  0001 C CNN
 	1    9950 4900
 	1    0    0    -1  
@@ -683,12 +677,12 @@ NoConn ~ 1150 4900
 NoConn ~ 1150 5000
 NoConn ~ 1150 5400
 $Comp
-L Connector_Generic:Conn_01x02 3.3v
+L Connector_Generic:Conn_01x02 3.3v1
 U 1 1 5D9A71F8
 P 6350 1250
-F 0 "3.3v" H 6430 1242 50  0000 L CNN
+F 0 "3.3v1" H 6430 1242 50  0000 L CNN
 F 1 "Conn_01x02" H 6430 1151 50  0000 L CNN
-F 2 "" H 6350 1250 50  0001 C CNN
+F 2 "2.54mm_Pin_Headers:PinHeader_1x02_P2.54mm_Vertical" H 6350 1250 50  0001 C CNN
 F 3 "~" H 6350 1250 50  0001 C CNN
 	1    6350 1250
 	1    0    0    -1  
@@ -724,10 +718,10 @@ PWM_2
 Text GLabel 7500 4350 0    50   Input ~ 0
 PWM_3
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0101
 U 1 1 5D9A98CB
 P 5050 800
-F 0 "#FLG?" H 5050 875 50  0001 C CNN
+F 0 "#FLG0101" H 5050 875 50  0001 C CNN
 F 1 "PWR_FLAG" H 5050 974 50  0000 C CNN
 F 2 "" H 5050 800 50  0001 C CNN
 F 3 "~" H 5050 800 50  0001 C CNN
@@ -735,10 +729,10 @@ F 3 "~" H 5050 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0130
 U 1 1 5D9A9909
 P 5050 800
-F 0 "#PWR?" H 5050 650 50  0001 C CNN
+F 0 "#PWR0130" H 5050 650 50  0001 C CNN
 F 1 "+3.3V" V 5065 928 50  0000 L CNN
 F 2 "" H 5050 800 50  0001 C CNN
 F 3 "" H 5050 800 50  0001 C CNN
@@ -746,10 +740,10 @@ F 3 "" H 5050 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0131
 U 1 1 5D9A99A2
 P 5550 800
-F 0 "#PWR?" H 5550 650 50  0001 C CNN
+F 0 "#PWR0131" H 5550 650 50  0001 C CNN
 F 1 "+5V" V 5565 928 50  0000 L CNN
 F 2 "" H 5550 800 50  0001 C CNN
 F 3 "" H 5550 800 50  0001 C CNN
@@ -757,10 +751,10 @@ F 3 "" H 5550 800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L power:PWR_FLAG #FLG0102
 U 1 1 5D9A9A1B
 P 5550 800
-F 0 "#FLG?" H 5550 875 50  0001 C CNN
+F 0 "#FLG0102" H 5550 875 50  0001 C CNN
 F 1 "PWR_FLAG" H 5550 974 50  0000 C CNN
 F 2 "" H 5550 800 50  0001 C CNN
 F 3 "~" H 5550 800 50  0001 C CNN
@@ -771,10 +765,86 @@ Text GLabel 8650 2850 0    50   Input ~ 0
 PWM_4
 Text GLabel 1150 2200 0    50   Input ~ 0
 PWM_5
-Text GLabel 1150 3100 0    50   Input ~ 0
+Text GLabel 3450 5100 2    50   Input ~ 0
 PWM_6
-Text GLabel 1150 3200 0    50   Input ~ 0
+Text GLabel 3450 5200 2    50   Input ~ 0
 PWM_7
 Text GLabel 9750 2850 0    50   Input ~ 0
 PWM_8
+Text GLabel 1150 4400 0    50   Input ~ 0
+PWM_9
+Text GLabel 9750 3850 0    50   Input ~ 0
+PWM_10
+Text GLabel 1150 4200 0    50   Input ~ 0
+PWM_11
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5D9AC9FC
+P 6000 800
+F 0 "#FLG0103" H 6000 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 974 50  0000 C CNN
+F 2 "" H 6000 800 50  0001 C CNN
+F 3 "~" H 6000 800 50  0001 C CNN
+	1    6000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0132
+U 1 1 5D9ACA33
+P 6000 800
+F 0 "#PWR0132" H 6000 550 50  0001 C CNN
+F 1 "GND" V 6005 672 50  0000 R CNN
+F 2 "" H 6000 800 50  0001 C CNN
+F 3 "" H 6000 800 50  0001 C CNN
+	1    6000 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 2100 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 6300 2400 0    50   Input ~ 0
+I2C_SDA
+$Comp
+L Device:R R1
+U 1 1 5D9ADD85
+P 6450 2100
+F 0 "R1" V 6350 2050 50  0000 C CNN
+F 1 "R" V 6550 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 2100 50  0001 C CNN
+F 3 "~" H 6450 2100 50  0001 C CNN
+	1    6450 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D9ADDEF
+P 6450 2400
+F 0 "R2" V 6350 2350 50  0000 C CNN
+F 1 "R" V 6550 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 2400 50  0001 C CNN
+F 3 "~" H 6450 2400 50  0001 C CNN
+	1    6450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 5D9AE081
+P 6600 2100
+F 0 "#PWR0133" H 6600 1950 50  0001 C CNN
+F 1 "+3.3V" V 6615 2228 50  0000 L CNN
+F 2 "" H 6600 2100 50  0001 C CNN
+F 3 "" H 6600 2100 50  0001 C CNN
+	1    6600 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0134
+U 1 1 5D9AE0DB
+P 6600 2400
+F 0 "#PWR0134" H 6600 2250 50  0001 C CNN
+F 1 "+3.3V" V 6615 2528 50  0000 L CNN
+F 2 "" H 6600 2400 50  0001 C CNN
+F 3 "" H 6600 2400 50  0001 C CNN
+	1    6600 2400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
