@@ -72,58 +72,58 @@ Text GLabel 3600 2000 2    50   Input ~ 0
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DA3B29F
-P 5800 3100
-F 0 "J?" H 5880 3092 50  0000 L CNN
-F 1 "Conn_01x02" H 5880 3001 50  0000 L CNN
-F 2 "" H 5800 3100 50  0001 C CNN
-F 3 "~" H 5800 3100 50  0001 C CNN
-	1    5800 3100
+P 5750 2900
+F 0 "J?" H 5830 2892 50  0000 L CNN
+F 1 "Conn_01x02" H 5830 2801 50  0000 L CNN
+F 2 "" H 5750 2900 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+	1    5750 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DA3B2F3
-P 5800 2800
-F 0 "J?" H 5880 2792 50  0000 L CNN
-F 1 "Conn_01x02" H 5880 2701 50  0000 L CNN
-F 2 "" H 5800 2800 50  0001 C CNN
-F 3 "~" H 5800 2800 50  0001 C CNN
-	1    5800 2800
+P 5750 2600
+F 0 "J?" H 5830 2592 50  0000 L CNN
+F 1 "Conn_01x02" H 5830 2501 50  0000 L CNN
+F 2 "" H 5750 2600 50  0001 C CNN
+F 3 "~" H 5750 2600 50  0001 C CNN
+	1    5750 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DA3B3BF
-P 5800 2500
-F 0 "J?" H 5880 2492 50  0000 L CNN
-F 1 "Conn_01x02" H 5880 2401 50  0000 L CNN
-F 2 "" H 5800 2500 50  0001 C CNN
-F 3 "~" H 5800 2500 50  0001 C CNN
-	1    5800 2500
+P 5750 2300
+F 0 "J?" H 5830 2292 50  0000 L CNN
+F 1 "Conn_01x02" H 5830 2201 50  0000 L CNN
+F 2 "" H 5750 2300 50  0001 C CNN
+F 3 "~" H 5750 2300 50  0001 C CNN
+	1    5750 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 5DA3B411
-P 5800 2200
-F 0 "J?" H 5880 2192 50  0000 L CNN
-F 1 "Conn_01x02" H 5880 2101 50  0000 L CNN
-F 2 "" H 5800 2200 50  0001 C CNN
-F 3 "~" H 5800 2200 50  0001 C CNN
-	1    5800 2200
+P 5750 2000
+F 0 "J?" H 5830 1992 50  0000 L CNN
+F 1 "Conn_01x02" H 5830 1901 50  0000 L CNN
+F 2 "" H 5750 2000 50  0001 C CNN
+F 3 "~" H 5750 2000 50  0001 C CNN
+	1    5750 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5600 3200 0    50   Input ~ 0
+Text GLabel 5550 3000 0    50   Input ~ 0
 15vGnd
-Text GLabel 5600 2900 0    50   Input ~ 0
+Text GLabel 5550 2700 0    50   Input ~ 0
 15vGnd
-Text GLabel 5600 2600 0    50   Input ~ 0
+Text GLabel 5550 2400 0    50   Input ~ 0
 15vGnd
-Text GLabel 5600 2300 0    50   Input ~ 0
+Text GLabel 5550 2100 0    50   Input ~ 0
 15vGnd
-Text GLabel 5600 3100 0    50   Input ~ 0
+Text GLabel 5550 2900 0    50   Input ~ 0
 15vFused
-Text GLabel 5600 2800 0    50   Input ~ 0
+Text GLabel 5550 2600 0    50   Input ~ 0
 15vFused
 $Comp
 L Connector_Generic:Conn_01x02 J?
@@ -140,8 +140,8 @@ Text GLabel 4500 1600 0    50   Input ~ 0
 15vFused
 Text GLabel 4600 1600 2    50   Input ~ 0
 15vBreaker&Fused
-Text GLabel 5600 2200 0    50   Input ~ 0
+Text GLabel 5550 2000 0    50   Input ~ 0
 15vBreaker&Fused
-Text GLabel 5600 2500 0    50   Input ~ 0
+Text GLabel 5550 2300 0    50   Input ~ 0
 15vBreaker&Fused
 $EndSCHEMATC

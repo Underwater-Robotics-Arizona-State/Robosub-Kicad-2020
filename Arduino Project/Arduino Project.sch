@@ -337,10 +337,10 @@ I2C_SCL
 Text GLabel 9750 2400 0    50   Input ~ 0
 I2C_SDA
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 Switch1
 U 1 1 5D95555F
 P 10050 1250
-F 0 "J1" H 10130 1242 50  0000 L CNN
+F 0 "Switch1" H 10130 1242 50  0000 L CNN
 F 1 "Conn_01x02" H 10130 1151 50  0000 L CNN
 F 2 "2.54mm_Pin_Headers:PinHeader_1x02_P2.54mm_Vertical" H 10050 1250 50  0001 C CNN
 F 3 "~" H 10050 1250 50  0001 C CNN
